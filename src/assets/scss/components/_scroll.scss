@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* chrome scroll common */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(187, 187, 187, 0.7);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 20px;
+}
+
+/* perfect-scrollbar */
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y.ps--clicking,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-y:hover {
+  border-radius: $border-radius-6;
+}
+
+.ps {
+  height: 100vh;
+}
+
+/* map_list_scroll */
+.map_list_scroll {
+  height: 56.5vh;
+}
+
+/* video_modal */
+.video_modal_scroll {
+  width: 100%;
+  height: 80vh;
+}
+
+.video_analysis_scroll {
+  height: 80px;
+  padding-right: 15px;
+  margin: 15px 0;
+}
+
+/* modal scroll */
+.modal_scroll_bar {
+  height: 75vh;
+  padding-right: 20px;
+}
+
+/* scroll top button */
+.scroll_top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 55px;
+  height: 55px;
+  background-color: $color-blue-light;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dca_list_scroll {
+  width: 25%;
+  height: 500px;
+}

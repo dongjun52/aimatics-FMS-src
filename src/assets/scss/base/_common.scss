@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+/* position */
+.po_r {
+  position: relative;
+}
+
+/* float */
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+
+/* text-align */
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left !important;
+}
+.tr {
+  text-align: right;
+}
+
+/* vertical-align */
+.vt {
+  vertical-align: text-top;
+}
+.vm {
+  vertical-align: middle;
+}
+.vb {
+  vertical-align: text-bottom;
+}
+.flex_end {
+  align-self: flex-end;
+}
+
+/* align-position */
+.align_b {
+  position: absolute;
+  bottom: 20px;
+}
+
+.align_rb {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.align_lb {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.align_rt {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.align_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align_left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.align_center {
+  display: flex;
+  justify-content: center;
+}
+
+/* cursor pointer */
+.cp {
+  cursor: pointer;
+}
+
+/* width */
+.w10 {
+  width: 10%;
+}
+.w15 {
+  width: 15%;
+}
+.w20 {
+  width: 20%;
+}
+.w25 {
+  width: 25%;
+}
+.w30 {
+  width: 30%;
+}
+.w35 {
+  width: 35%;
+}
+.w40 {
+  width: 40%;
+}
+.w45 {
+  width: 45%;
+}
+.w50 {
+  width: 50%;
+}
+.w55 {
+  width: 55%;
+}
+.w60 {
+  width: 60%;
+}
+.w65 {
+  width: 65%;
+}
+.w70 {
+  width: 70%;
+}
+.w75 {
+  width: 75%;
+}
+.w80 {
+  width: 80%;
+}
+
+/* margin & padding */
+@for $i from 1 through 70 {
+  .mt#{$i} {
+    margin-top: $i + px;
+  }
+  .ml#{$i} {
+    margin-left: $i + px;
+  }
+  .mr#{$i} {
+    margin-right: $i + px;
+  }
+  .mb#{$i} {
+    margin-bottom: $i + px;
+  }
+
+  .pt#{$i} {
+    padding-top: $i + px;
+  }
+  .pl#{$i} {
+    padding-left: $i + px;
+  }
+  .pr#{$i} {
+    padding-right: $i + px;
+  }
+  .pb#{$i} {
+    padding-bottom: $i + px;
+  }
+}
+
+.ml0 {
+  margin-left: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+/* font size */
+@for $i from 10 through 60 {
+  .ft#{$i} {
+    font-size: $i + px;
+  }
+}
+
+/* font-weight */
+.fw_xl {
+  font-weight: $font-thin;
+}
+
+.fw_l {
+  font-weight: $font-light;
+}
+
+.fw_r {
+  font-weight: $font-normal;
+}
+
+.fw_m {
+  font-weight: $font-medium;
+}
+
+.fw_b {
+  font-weight: $font-bold;
+}
+
+/* border-radius */
+.br6 {
+  border-radius: 6px;
+}
+
+.br10 {
+  border-radius: 10px;
+}
+
+/* display */
+.dp_b {
+  display: block;
+}
+
+.dp_i {
+  display: inline;
+}
+
+.dp_ib {
+  display: inline-block;
+}
+
+/* skip-txt */
+.skip_txt {
+  width: 98%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* border */
+.border_box {
+  border: 1px solid $color-gray4;
+  border-radius: $border-radius-6;
+  padding: 20px;
+}
+
+/* background color */
+.bg_red {
+  background-color: $color-red;
+}
+.bg_blue {
+  background-color: $color-blue;
+}
+.bg_gray {
+  background-color: $color-gray;
+}
+.bg_yellow {
+  background-color: $color-yellow;
+}
+.bg_orange {
+  background-color: $color-orange;
+}
+.bg_purple {
+  background-color: $color-purple;
+}
+.bg_purple2 {
+  background-color: $color-purple2;
+}
+
+/* border-color */
+.bt_red {
+  border-top: 10px solid $color-red3;
+}
+.bt_yellow {
+  border-top: 10px solid $color-yellow;
+}
+.bt_blue {
+  border-top: 10px solid $color-blue-light;
+}
+
+/* font color */
+.ft_red {
+  color: $color-red;
+}
+.ft_red3 {
+  color: $color-red3;
+}
+.ft_blue {
+  color: $color-blue;
+}
+.ft_blueL {
+  color: $color-blue-light;
+}
+.ft_yellow {
+  color: $color-yellow;
+}
+.ft_gray {
+  color: $color-gray;
+}
+.ft_purple {
+  color: $color-purple;
+}
+.ft_purple2 {
+  color: $color-purple2;
+}
+
+/* ant-spin-nested-loading */
+.ant-spin-nested-loading {
+  height: 100%;
+
+  .ant-spin-container {
+    height: 100%;
+  }
+}

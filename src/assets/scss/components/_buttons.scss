@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-14;
+  font-weight: $font-light;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn_xxs {
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.btn_xs {
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.btn_xs2 {
+  width: 120px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.btn_sm {
+  width: 65px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_smd {
+  width: 85px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.btn_m2 {
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_m {
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_md {
+  width: 128px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_xm {
+  width: 140px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_lg {
+  width: 149px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.btn_xl {
+  width: 152px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.btn_xxl {
+  width: 170px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.btn_tooltip {
+  width: 100%;
+    background-color: #01afde;
+    border-radius: 6px;
+    padding: 3px 0;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn_white {
+  color: $color-blue !important;
+  background-color: $global-color !important;
+  border: 1px solid $color-blue !important;
+
+  &:hover {
+    color: $global-color !important;
+    background-color: $color-blue !important;
+  }
+
+  &:focus {
+    color: $color-blue;
+    background-color: $global-color;
+    border: 1px solid $color-blue;
+  }
+
+  &:active {
+    color: $color-blue;
+    background-color: $global-color;
+    border: 1px solid $color-blue;
+  }
+}
+
+.btn_yellow {
+  color: $global-color;
+  background-color: $color-yellow;
+
+  &:hover {
+    color: $global-color;
+    background-color: #fcc987;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: $color-yellow;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: $color-yellow;
+  }
+}
+
+.btn_yellow2 {
+  color: $color-yellow;
+  background-color: $global-color;
+  border: 1px solid $color-yellow !important;
+
+  &:hover {
+    color: $global-color;
+    background-color: $color-yellow;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: $color-yellow;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: $color-yellow;
+  }
+}
+
+.btn_gray {
+  color: $color-gray;
+  background-color: $color-gray-light;
+
+  &:hover {
+    color: $color-gray;
+    background-color: #d5d7e6;
+  }
+
+  &:focus {
+    color: $color-gray;
+    background-color: $color-gray-light;
+  }
+
+  &:active {
+    color: $color-gray;
+    background-color: $color-gray-light;
+  }
+}
+
+.btn_gray2 {
+  color: $global-color;
+  background-color: $color-gray2;
+
+  &:hover {
+    color: $global-color;
+    background-color: #d5d7e6;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: $color-gray2;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: $color-gray2;
+  }
+}
+
+.btn_gray3 {
+  color: $global-color;
+  background-color: #babfd1;
+
+  &:hover {
+    color: $global-color;
+    background-color: #d5d7e6;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: #babfd1;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: #babfd1;
+  }
+}
+
+.btn_blue {
+  color: $global-color;
+  background-color: $color-blue-light;
+
+  &:hover {
+    color: $global-color !important;
+    background-color: #60c7e3 !important;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: $color-blue-light;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: $color-blue-light;
+  }
+}
+
+.btn_red {
+  color: $global-color;
+  background-color: $color-red2;
+
+  &:hover {
+    color: $global-color;
+    background-color: #f14c4c;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: $color-red2;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: $color-red2;
+  }
+}
+
+.btn_red2 {
+  color: $color-red2;
+  background-color: $global-color;
+  border: 1px solid $color-red2 !important;
+
+  &:hover {
+    color: $global-color;
+    background-color: #f14c4c;
+  }
+
+  &:focus {
+    color: $global-color;
+    background-color: #f14c4c;
+  }
+
+  &:active {
+    color: $global-color;
+    background-color: #f14c4c;
+  }
+}
+
+/* ant-btn */
+.ant-btn {
+  border: none;
+}
+
+/* event_tag */
+.event_tag {
+  width: 170px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  font-size: $font-14;
+  font-weight: $font-light;
+  color: $global-color;
+}
+
+/* video player - analysis_video_btn */
+.analysis_video_btn {
+  margin-bottom: 10px;
+
+  .ant-radio-button-wrapper {
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 4px;
+    background: #e7e9f6;
+    border: none;
+  }
+
+  .ant-radio-button-wrapper:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+
+  .ant-radio-button-wrapper:last-child {
+    border-radius: 0 6px 6px 0;
+  }
+}

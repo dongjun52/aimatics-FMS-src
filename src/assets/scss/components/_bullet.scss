@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.bul_blue {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-blue-light;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_green {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-green;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_gray {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-gray;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_grayL {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-gray-light;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_gray_border {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $global-color;
+    border: 1px solid $color-gray2;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_red {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-red3;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_yellow {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-color: $color-yellow;
+    border-radius: $border-circle;
+  }
+}
+
+.bul_po {
+  &::before {
+    content: '*';
+    display: inline-block;
+    color: $color-red2;
+    position: relative;
+    top: 3px;
+    right: 1px;
+  }
+}
+
+/* ant-badge */
+.ant-badge-dot {
+  width: 8px;
+  height: 8px;
+}
+
+/* blob */
+
+.blob_blue {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background: $color-blue-light;
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 1);
+    transform: scale(1);
+    animation: pulse-blue 2s infinite;
+  }
+}
+
+@keyframes pulse-blue {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+  }
+}

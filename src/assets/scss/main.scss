@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+//abstracts
+@import 'abstracts/variables', 'abstracts/mixins';
+
+//base
+@import 'base/vue3-perfect-scrollbar', 'base/video-js', 'base/vue-quill',
+  'base/reset', 'base/fonts', 'base/common', 'base/antd_button',
+  'base/antd_modal', 'base/antd_pagination', 'base/antd_input',
+  'base/antd_table', 'base/antd_tooltip', 'base/antd_popover', 'base/antd_radio',
+  'base/antd_select', 'base/antd_collapse', 'base/antd_switch', 'base/antd_tabs',
+  'base/antd_notification', 'base/antd_dropdown';
+
+//components
+@import 'components/alert', 'components/buttons', 'components/modal',
+  'components/icon', 'components/video', 'components/tab', 'components/table',
+  'components/input', 'components/scroll', 'components/bullet', 'components/map',
+  'components/graph', 'components/chart', 'components/collapse',
+  'components/search', 'components/pagination', 'components/list',
+  'components/calendar', 'components/notification';
+
+//layout
+@import 'layout/header', 'layout/grid';
+
+//pages
+@import 'pages/login', 'pages/video-player';
+
+//vendors
+@import 'vendors/antd';

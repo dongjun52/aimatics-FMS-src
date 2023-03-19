@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.ant-notification-topRight {
+  top: 75px !important;
+  right: 2.5% !important;
+}
+
+.success_notification {
+  border-top: 10px solid $color-blue-light;
+  border-radius: $border-radius-6;
+}
+
+.failed_notification {
+  border-top: 10px solid $color-red3;
+  border-radius: $border-radius-6;
+}
+
+.ant-notification-notice {
+  width: 430px;
+  height: 100px;
+  padding: 15px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-notification-notice-close {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ant-notification-notice-message {
+  font-size: $font-14;
+  font-weight: $font-medium;
+  padding-right: 0;
+  padding-top: 4px;
+}
+
+.ant-notification-notice-icon,
+.ant-notification-notice-with-icon {
+  margin-left: 0;
+
+  .anticon-check-circle {
+    width: 36px;
+    height: 36px;
+    background-image: url('/src/assets/images/common/icon_success_M.png');
+    background-position: center center;
+
+    > svg {
+      display: none;
+    }
+  }
+  .ant-notification-notice-icon-error {
+    width: 36px;
+    height: 36px;
+    background-image: url('/src/assets/images/common/icon_error_M.png');
+    background-position: center center;
+
+    > svg {
+      display: none;
+    }
+  }
+}

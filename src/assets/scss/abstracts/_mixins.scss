@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin anim-filter($filter, $value) {
+  -webkit-filter: #{$filter}unquote('(#{$value})');
+  -moz-filter: #{$filter}unquote('(#{$value})');
+  -ms-filter: #{$filter}unquote('(#{$value})');
+  filter: #{$filter}unquote('(#{$value})');
+}
+
+@mixin anim-transition($property, $value) {
+  -webkit-transition: $property, $value;
+  -moz-transition: $property, $value;
+  -ms-transition: $property, $value;
+  transition: $property, $value;
+}
+
+@mixin anim-transform($property, $value) {
+  -webkit-transform: #{$property}unquote('(#{$value})');
+  -moz-transform: #{$property}unquote('(#{$value})');
+  -ms-transform: #{$property}unquote('(#{$value})');
+  transform: #{$property}unquote('(#{$value})');
+}

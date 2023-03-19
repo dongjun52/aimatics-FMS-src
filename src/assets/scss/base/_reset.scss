@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: $global-font-family;
+  color: $global-font-color;
+  font-size: $global-font-size;
+  background-color: $global-color;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+select {
+  font-family: $global-font-family;
+  border: 1px solid #ddd;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #bdbfc8;
+  border-radius: 0;
+  resize: none;
+  color: $color-gray;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='submit'] {
+  background-color: $global-color;
+  height: auto;
+  line-height: normal;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+.checks input[type='checkbox'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.checks input[type='checkbox'] + label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  padding-left: 55px;
+  transition: 0.2s;
+}
+
+.checks input[type='checkbox']:checked + label {
+  color: $global-font-color;
+}
+
+.checks input[type='checkbox'] + label:before {
+  content: '';
+  background: url('@/assets/images/common/input_disabled.png') no-repeat center
+    center;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: -2px 8px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #bdbfc8;
+  border-radius: $border-circle;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  transition: 0.1s;
+}
+
+.checks input[type='checkbox']:checked + label:before {
+  content: '';
+  background-image: url('@/assets/images/common/input_checked.png');
+  background-color: $color-blue;
+  border-color: $color-blue;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+caption {
+  overflow: hidden;
+  text-indent: -99999px;
+  font-size: 0;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+button {
+  display: inline-block;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-family: $global-font-family;
+  font-size: $font-14;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+// .clearfix:after {content: "";display: block;height: 0;clear: both;visibility: hidden;}
+// .mobile_br {display: none;}
+
+// @media screen and (max-width: 1900px) {
+//   body {
+//     min-width: 1900px;
+//   }
+// }
+
+// @media screen and (max-width: 1280px) {
+//   body {
+//     min-width: auto;
+//   }
+// }

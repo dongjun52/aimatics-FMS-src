@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.ant-collapse {
+  border-radius: $border-radius-6;
+  background-color: #f1f3f8;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  font-size: $font-16;
+  font-weight: $font-bold;
+  color: $global-font-color;
+  padding: 12px 15px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.ant-collapse-item:last-child > .ant-collapse-content {
+  border-radius: 0 0 6px 6px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  font-size: $font-18;
+  color: #8289a3;
+}
+
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 50px 12px 16px;
+}
+
+.panel_group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5px;
+
+  li {
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    border-top: 1px solid #e7e9f6;
+    border-bottom: 1px solid #e7e9f6;
+
+    &:nth-child(n + 3) {
+      border-top: none;
+    }
+
+    .label_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      height: 50px;
+      padding: 0 10px;
+      line-height: 1.2;
+      font-weight: $font-light;
+      color: #8289a3;
+      background-color: #f8f9fd;
+      align-items: center;
+    }
+
+    .label_option {
+      width: 50%;
+      background-color: #fff;
+      text-align: center;
+    }
+  }
+}
+
+/* 기기설정 */
+.device_setting {
+  margin-bottom: 100px;
+
+  .ant-collapse {
+    background-color: initial;
+    border: none;
+
+    > .ant-collapse-item {
+      background-color: #f1f3f8;
+      border-radius: 6px;
+      border-bottom: none;
+      margin-bottom: 12px;
+
+      > .ant-collapse-header {
+        padding: 10px 50px 10px 16px;
+        color: $color-gray;
+        font-weight: $font-medium;
+
+        &:hover {
+          color: $global-font-color;
+        }
+
+        .ant-collapse-arrow {
+          margin-top: 3px;
+        }
+      }
+
+      .ant-collapse-content {
+        border-top: none;
+
+        .ant-collapse-content-box {
+          border: 1px solid $color-gray4;
+          border-top: none;
+          border-radius: 0 0 6px 6px;
+          padding: 1px 16px 16px 16px;
+        }
+      }
+    }
+
+    > .ant-collapse-item-active {
+      > .ant-collapse-header {
+        color: $global-font-color;
+      }
+    }
+  }
+}

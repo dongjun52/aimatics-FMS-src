@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.apexcharts-datalabels {
+  text {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    box-shadow: none !important;
+  }
+}
+
+.apexcharts-legend-text {
+  color: $color_gray !important;
+}
+
+/* 차량 및 기기 */
+.report_chart {
+  .chart_wrapper_bottom_area {
+    margin-top: 0 !important;
+  }
+}
+
+.line_chart_label {
+  tspan {
+    font-family: 'Noto Sans KR, sans-serif';
+    color: #c1c5df;
+  }
+}
+
+.apexcharts-yaxis-title {
+  writing-mode: tb-rl;
+}
+.apexcharts-yaxis-title2 {
+  writing-mode: tb-rl;
+  letter-spacing: 4px;
+}
+.apexcharts-yaxis-title3 {
+  letter-spacing: 4px;
+}

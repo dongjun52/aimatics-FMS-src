@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* apex chart */
+.apexcharts-toolbar {
+  > div {
+    transform: initial !important;
+  }
+}
+/* //apex chart */
+
+.graph_inner {
+  position: relative;
+}
+
+.graph_section {
+  width: 100%;
+
+  > div {
+    height: 470px;
+    float: left;
+    min-height: 0 !important;
+  }
+
+  .btn_graph {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+.graph_pie {
+  width: 46%;
+
+  .graph_height {
+    padding-top: 30px;
+    height: 350px;
+  }
+}
+.graph_bar {
+  width: 52.2%;
+  margin-left: 1.8%;
+
+  .graph_height {
+    height: 350px;
+  }
+}
+
+/* violation */
+.violation_chart {
+  width: 100%;
+  height: 300px;
+  .apexcharts-legend-marker {
+    border-radius: 12px !important;
+  }
+}
+
+/* EconomyDriverManage */
+.economy_analysis_graph_area {
+  position: relative;
+
+  .economy_analysis_graph {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+}
+
+.economy_analysis_graph_area_type1 {
+  height: 356px;
+}
+
+.economy_analysis_graph_area_type2 {
+  height: 350px;
+}
+
+/* Chart Wrapper */
+.chart_wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .chart_wrapper_content {
+    flex: 1;
+    position: static !important;
+  }
+
+  .apexcharts-canvas {
+    position: static;
+  }
+
+  .apexcharts-toolbar {
+    top: 22px !important;
+    right: 21px !important;
+  }
+
+  .chart_wrapper_bottom_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .chart_wrapper_bottom_unit_text {
+      letter-spacing: -0.35px;
+      color: #8289a3;
+      font-size: 14px;
+    }
+
+    .btn {
+      align-self: flex-end;
+    }
+  }
+}
+
+/* 운행분석 리포트 */
+.event_total {
+  .apexcharts-menu-icon {
+    display: none;
+  }
+}

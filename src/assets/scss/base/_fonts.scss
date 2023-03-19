@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+//Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+//Noto Sans KR
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: local('NotoSansKR-Light'),
+    url('@/assets/fonts/NotoSansKR-Light.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: local('NotoSansKR-DemiLight'),
+    url('@/assets/fonts/NotoSansKR-DemiLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: local('NotoSansKR-Regular'),
+    url('@/assets/fonts/NotoSansKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: local('NotoSansKR-Medium'),
+    url('@/assets/fonts/NotoSansKR-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: local('NotoSansKR-Bold'),
+    url('@/assets/fonts/NotoSansKR-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

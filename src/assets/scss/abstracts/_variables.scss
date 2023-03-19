@@ -1,0 +1,62 @@
+$global-font-family: 'Roboto', sans-serif;
+$global-color: #fff;
+$global-font-color: #041241;
+$global-font-size: 15px;
+
+$color-mint: #62e9bb;
+$color-mint2: #60c7a7;
+$color-green: #00c481;
+$color-green2: #00afaf;
+$color-blue-light: #01afde;
+$color-blue: #0099c2;
+$color-blue-weight: #409af0;
+$color-purple: #877afc;
+$color-purple2: #cf74fc;
+$color-yellow: #feb14e;
+$color-orange: #ff8800;
+$color-red: #ec7373;
+$color-red2: #f26868;
+$color-red3: #f85656;
+$color-gray-light: #e7e9f6;
+$color-gray: #8289a3;
+$color-gray2: #bdbfc8;
+$color-gray3: #c1c5df;
+$color-gray4: #e7e9f6;
+$color-gray5: #abafbc;
+$color-gray6: #919399;
+
+$font-11: 11px;
+$font-12: 12px;
+$font-13: 13px;
+$font-14: 14px;
+$font-15: 15px;
+$font-16: 16px;
+$font-17: 17px;
+$font-18: 18px;
+$font-19: 19px;
+$font-20: 20px;
+$font-21: 21px;
+$font-22: 22px;
+
+$font-thin: 100;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+$on: active;
+
+$shadow-default: 0px 0px 15px #8289a366;
+
+$border-radius-default: 5px;
+$border-radius-6: 6px;
+$border-radius-10: 10px;
+$border-circle: 50%;
+
+$margin-auto: 0 auto;
+
+%clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}

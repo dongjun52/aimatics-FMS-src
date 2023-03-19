@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.tab_calendar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .calendar_title {
+    font-size: 16px;
+    font-weight: $font-medium;
+    color: #717171;
+  }
+
+  .ant-picker {
+    border-radius: 6px !important;
+    border-color: #dadce0 !important;
+
+    .ant-picker-input > input {
+      font-weight: $font-normal;
+      color: $color-gray;
+      font-family: $global-font-family;
+    }
+  }
+}
+
+.calendar_wrap {
+  display: inline-block;
+}
